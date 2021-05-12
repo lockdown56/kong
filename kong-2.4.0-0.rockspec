@@ -72,6 +72,7 @@ build = {
     ["kong.hooks"] = "kong/hooks.lua",
 
     ["kong.conf_loader"] = "kong/conf_loader/init.lua",
+    ["kong.conf_loader.feature_flags"] = "kong/conf_loader/feature_flags.lua",
     ["kong.conf_loader.listeners"] = "kong/conf_loader/listeners.lua",
 
     ["kong.cluster_events"] = "kong/cluster_events/init.lua",
@@ -143,7 +144,6 @@ build = {
     ["kong.runloop.plugins_iterator"] = "kong/runloop/plugins_iterator.lua",
     ["kong.runloop.balancer"] = "kong/runloop/balancer/init.lua",
     ["kong.runloop.balancer.balancers"] = "kong/runloop/balancer/balancers.lua",
-    ["kong.runloop.balancer.dns_client"] = "kong/runloop/balancer/dns_client.lua",
     ["kong.runloop.balancer.healthcheckers"] = "kong/runloop/balancer/healthcheckers.lua",
     ["kong.runloop.balancer.round_robin"] = "kong/runloop/balancer/round_robin.lua",
     ["kong.runloop.balancer.targets"] = "kong/runloop/balancer/targets.lua",
