@@ -72,7 +72,6 @@ build = {
     ["kong.hooks"] = "kong/hooks.lua",
 
     ["kong.conf_loader"] = "kong/conf_loader/init.lua",
-    ["kong.conf_loader.feature_flags"] = "kong/conf_loader/feature_flags.lua",
     ["kong.conf_loader.listeners"] = "kong/conf_loader/listeners.lua",
 
     ["kong.cluster_events"] = "kong/cluster_events/init.lua",
@@ -151,6 +150,7 @@ build = {
     ["kong.runloop.plugin_servers"] = "kong/runloop/plugin_servers/init.lua",
     ["kong.runloop.plugin_servers.process"] = "kong/runloop/plugin_servers/process.lua",
     ["kong.runloop.plugin_servers.mp_rpc"] = "kong/runloop/plugin_servers/mp_rpc.lua",
+    ["kong.runloop.plugin_servers.pb_rpc"] = "kong/runloop/plugin_servers/pb_rpc.lua",
 
     ["kong.workspaces"] = "kong/workspaces/init.lua",
 
